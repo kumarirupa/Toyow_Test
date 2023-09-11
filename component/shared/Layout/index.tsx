@@ -5,7 +5,7 @@ import Header from "../Header";
 import Head from "next/head";
 import { ReactElement } from "react";
 
-interface propsInterface { children: ReactElement; darkMode: string; }
+interface propsInterface { children: ReactElement; darkMode?: string; }
 
 const Layout = (props: propsInterface) => {
   const { children } = props;

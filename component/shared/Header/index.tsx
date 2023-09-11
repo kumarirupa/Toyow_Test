@@ -42,18 +42,10 @@ export default function Header() {
               <a
                 href="#"
                 className="text-sm border-bottom-tramsition block py-2 pl-3 pr-4 text-white bg-black dark:bg-white dark:text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-white dark:bg-black lg:dark:bg-transparent"
-                aria-current="page"
               >
-                Work
-              </a>
-              <div className="dark:border-bottom-tramsition"></div>
-            </li>
-            <li className="lg: w-full">
-              <a
-                href="#"
-                className="text-sm border-bottom-tramsition block py-2 pl-3 pr-4 text-white bg-black  dark:bg-white dark:text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-white dark:bg-black lg:dark:bg-transparent"
-              >
-                Services
+                <span className="link link-underline link-underline-black">
+                  Works
+                </span>
               </a>
             </li>
             <li className="lg: w-full">
@@ -61,15 +53,9 @@ export default function Header() {
                 href="#"
                 className="text-sm border-bottom-tramsition block py-2 pl-3 pr-4 text-white bg-black dark:bg-white dark:text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-white dark:bg-black lg:dark:bg-transparent"
               >
-                About
-              </a>
-            </li>
-            <li className="lg: w-full">
-              <a
-                href="#"
-                className="text-sm border-bottom-tramsition dark:border-red block py-2 pl-3 pr-4 text-white bg-black dark:bg-white dark:text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-white dark:bg-black lg:dark:bg-transparent"
-              >
-                Blog
+                <span className="link link-underline link-underline-black">
+                  Services
+                </span>
               </a>
             </li>
             <li className="lg: w-full">
@@ -77,7 +63,29 @@ export default function Header() {
                 href="#"
                 className="text-sm border-bottom-tramsition block py-2 pl-3 pr-4 text-white bg-black dark:bg-white dark:text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-white dark:bg-black lg:dark:bg-transparent"
               >
-                Pages
+                <span className="link link-underline link-underline-black">
+                  About
+                </span>
+              </a>
+            </li>
+            <li className="lg: w-full">
+              <a
+                href="#"
+                className="text-sm border-bottom-tramsition block py-2 pl-3 pr-4 text-white bg-black dark:bg-white dark:text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-white dark:bg-black lg:dark:bg-transparent"
+              >
+                <span className="link link-underline link-underline-black">
+                  Blog
+                </span>
+              </a>
+            </li>
+            <li className="lg: w-full">
+              <a
+                href="#"
+                className="text-sm border-bottom-tramsition block py-2 pl-3 pr-4 text-white bg-black dark:bg-white dark:text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-white dark:bg-black lg:dark:bg-transparent"
+              >
+                <span className="link link-underline link-underline-black">
+                  Pages
+                </span>
               </a>
             </li>
             <li>
